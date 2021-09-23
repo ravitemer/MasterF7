@@ -1,0 +1,28 @@
+{
+  "cwd": "/home/ubuntu/master",
+  "type": [
+    "web",
+    "pwa",
+    "capacitor"
+  ],
+  "name": "MasterF7",
+  "pkg": "io.framework7.myapp",
+  "framework": "svelte",
+  "template": "split-view",
+  "cssPreProcessor": "scss",
+  "bundler": "vite",
+  "capacitor": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
